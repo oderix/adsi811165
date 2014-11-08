@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Elementos de Entrada (html:5)</title>
+</head>
+<body>
+	<h1>Elementos de entrada (html 5)</h1>
+	<hr>
+	<h2>lista de datos</h2>
+	<input list="lenguaje">
+	<datalist id="lenguaje">
+		<option value="java">java</option>
+		<option value="c#">c#</option>	
+		<option value="python">python</option>	
+		<option value="ruby">ruby</option>	
+	</datalist>
+	<!-- ================================= -->
+	<h2>generador de llaves (encriptar)</h2>
+	<keygen name="generador">
+	<!-- ================================= -->
+	<h2>salidas</h2>
+	<input type="text" id="nombre" oninput="salida.value=this.value">
+	<output id="salida" for="nombre"></output>
+	<!-- ================================= -->
+	</body>
+</html>
